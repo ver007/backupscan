@@ -19,3 +19,25 @@ optional arguments:
   -version          show program's version number and exit
 
 ```
+
+使用文件头进行匹配识别
+```
+{
+  "name": "ZIP",
+  "rule": [
+    {
+      "rule": "504b0304",
+      "type": "hex"
+    }
+  ]
+},
+{
+  "name": "RAR",
+  "rule": [
+    {
+      "rule": "526172211a0700cf9073",
+      "type": "hex"
+    }
+  ]
+},
+```
