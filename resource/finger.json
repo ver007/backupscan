@@ -1,0 +1,110 @@
+[
+  {
+    "name": "ZIP",
+    "rule": [
+      {
+        "rule": "504b0304",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "RAR",
+    "rule": [
+      {
+        "rule": "526172211a0700cf9073",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "TAR.GZ",
+    "rule": [
+      {
+        "rule": "1f8b0800*0003ec",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "7Z",
+    "rule": [
+      {
+        "rule": "377abcaf271c0003",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "BZ2",
+    "rule": [
+      {
+        "rule": "425a68393141592653",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "XZ",
+    "rule": [
+      {
+        "rule": "fd377a585a000001",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "GZ",
+    "rule": [
+      {
+        "rule": "1f8b0808.*?0e5b0200b0b0c9bd",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "WIM",
+    "rule": [
+      {
+        "rule": "4d5357494d000000d0",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "LZH",
+    "rule": [
+      {
+        "rule": ".*?2d6c68372d",
+        "type": "hex"
+      }
+    ]
+  },
+  {
+    "name": "SQL",
+    "rule": [
+      {
+        "rule": "Content-type|application/x-sql",
+        "type": "header"
+      }
+    ]
+  },
+  {
+    "name": "TXT",
+    "rule": [
+      {
+        "rule": "Content-type|text",
+        "type": "header"
+      }
+    ]
+  },
+  {
+    "name": "DS_STORE",
+    "rule": [
+      {
+        "rule": "0000000142756431",
+        "type": "hex"
+      }
+    ]
+  }
+]

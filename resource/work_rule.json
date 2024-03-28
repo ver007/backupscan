@@ -1,0 +1,269 @@
+{
+  "time": [
+    {
+      "format": "yyyy.mm.dd"
+    },
+    {
+      "format": "yyyy-mm-dd"
+    },
+    {
+      "format": "yyyy_mm_dd"
+    },
+    {
+      "format": "yyyy mm dd"
+    },
+    {
+      "format": "yyyy.mm"
+    },
+    {
+      "format": "yyyy-mm"
+    },
+    {
+      "format": "yyyy_mm"
+    },
+    {
+      "format": "yyyy mm"
+    },
+    {
+      "format": "mm.dd"
+    },
+    {
+      "format": "mm-dd"
+    },
+    {
+      "format": "mm_dd"
+    },
+    {
+      "format": "mm dd"
+    },
+    {
+      "format": "mm"
+    },
+    {
+      "format": "dd"
+    }
+  ],
+  "host": [
+    {
+      "replace": ".|_"
+    },
+    {
+      "replace": ".|-"
+    },
+    {
+      "replace": ".|"
+    },
+    {
+      "replace": ".|*"
+    },
+    {
+      "delete": "prefix|"
+    },
+    {
+      "delete": "suffix|"
+    },
+    {
+      "delete": "prefix|suffix"
+    }
+  ],
+  "adding": [
+    {
+      "adding": "web-|"
+    },
+    {
+      "adding": "config/|"
+    },
+    {
+      "adding": "data/|"
+    },
+    {
+      "adding": "db/|"
+    },
+    {
+      "adding": "panel/|"
+    },
+    {
+      "adding": "backup.|"
+    },
+    {
+      "adding": "backup-|"
+    },
+    {
+      "adding": "|.backup"
+    },
+    {
+      "adding": "|.bak"
+    },
+    {
+      "adding": "|"
+    },
+    {
+      "adding": ".git/|"
+    },
+    {
+      "adding": ".idea/|"
+    }
+  ],
+  "common": [
+    "webroot",
+    "root",
+    "backup-web",
+    "tar",
+    "search",
+    "blog-backup",
+    "backupweb",
+    "bin",
+    "web",
+    "website",
+    "tahunlama",
+    "tahunkemarin",
+    "kemarin",
+    "wordpress",
+    "images",
+    "under",
+    "files",
+    "file",
+    "admin",
+    "app",
+    "apps",
+    "sql",
+    "db",
+    "web-lama",
+    "bulan-lalu",
+    "cpanel",
+    "cp",
+    "user",
+    "email",
+    "web-backup",
+    "adminweb",
+    "wp",
+    "joomla",
+    "inidia",
+    "ini-dia",
+    "berdoa",
+    "amin",
+    "ini-admin",
+    "admin-backup",
+    "backup-admin",
+    "allwebsite",
+    "jdih",
+    "kominfo",
+    "kemkominfo",
+    "polisi",
+    "undangan",
+    "jdih-web",
+    "configuration",
+    "sitemap",
+    "upload",
+    "backup",
+    "filebackup",
+    "fileadmin",
+    "wp-content",
+    "untukadmin",
+    "backuppp",
+    "ini-backup-web",
+    "website-backup",
+    "wp-admin",
+    "cgi-bin",
+    "jkt",
+    "administrator",
+    "wp-backup",
+    "joomla-backup",
+    "backup-website",
+    "config",
+    "wp-settings",
+    "xmlrpc",
+    "index.php",
+    "index.jsp",
+    "index.asp",
+    "index.aspx",
+    "index",
+    "wp-user",
+    "themes-web",
+    "themes-website",
+    "tema",
+    "temawebsite",
+    "temawebsitebaru",
+    "inibackup",
+    "ini-file-backup",
+    "fileweb",
+    "filewebsite",
+    "weblama",
+    "gw-capek",
+    "backupp",
+    "lupa",
+    "tm",
+    "log",
+    "media",
+    "admin-joomla",
+    "admin-ganteng",
+    "admin-gans",
+    "admin-user",
+    "wp-login",
+    "ingetin",
+    "wp-includes",
+    "css",
+    "configweb",
+    "website-config",
+    "gueee-capekkkk",
+    "login",
+    "2017-12",
+    "desember",
+    "januari",
+    "februari",
+    "maret",
+    "april",
+    "mei",
+    "juni",
+    "juli",
+    "wellknown",
+    "well-known",
+    "adminlogin",
+    "backup-wp-content",
+    "backup-site",
+    "maintenance",
+    "perbaikan",
+    "upgrade",
+    "update",
+    "update-website",
+    "website-upgrade",
+    "plugins",
+    "backup-index",
+    "hariini",
+    "hari-ini",
+    "adminganteng",
+    "ganteng-admin",
+    "location",
+    "ff",
+    "backupppp",
+    "backuplama",
+    "backupweblama",
+    "indexlama",
+    "lamaindex",
+    "create-update",
+    "haladmin",
+    "loginwebsite",
+    "websitelogin",
+    "adminlama-backup",
+    "lama-backupadmin",
+    "idulfitri",
+    "bulan-kemarin",
+    "peringatan",
+    "agustus",
+    "september",
+    "oktober",
+    "november",
+    "ok-sekian",
+    "okee-sekiaan"
+  ],
+  "alone": [
+    ".DS_Store",
+    ".bash_history",
+    "._viminfo",
+    ".viminfo"
+  ],
+  "range": [
+    "1|9",
+    "a|z"
+  ]
+}
